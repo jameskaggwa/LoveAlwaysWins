@@ -15,44 +15,15 @@
 
 <body>
 <<<<<<< HEAD:index.html
-     <nav class="navbar navbar-light navbar-expand-lg  fixed-top" id="mainNav">
-        <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/logo.png"></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
-            <div
-                class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item nt" role="presentation"><a class="nav-link text-info" href="index.html">Home</a></li>
-                    <li class="nav-item nt" role="presentation"><a class="nav-link" href="about.html">About us</a></li>
-                    <li class="nav-item nt" role="presentation"><a class="nav-link text-info" href="contact.html">Contact us</a></li>
-                    <li class="nav-item nt" role="presentation"><a class="nav-link text-success" href="projects.html">Projects</a></li>
-                </ul>
-        </div>
-        </div>
-    </nav> 
 
 
     <header class="masthead bg-transparent">
         <div class=""></div>
 =======
-  <!--
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
-        <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/LAW.png"></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
-            <div
-                class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="nav navbar-nav ml-auto">
-                  <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link" href="about.html">About</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link" href="causes.html">Causes</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link" href="events.html">Events</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link" href="blog.html">Blog</a></li>
-                </ul>
-        </div>
-        </div>
-    </nav>
-  -->
+
     <?php include("menu.html") ?>
 
-    <header class="masthead" style="background-image:url('assets/img/home-bg.jpg');">
+    <header class="masthead">
         <div class="overlay"></div>
 >>>>>>> 6ee37bf6bf9476bdaf35cbcb41130af5b50065bd:index.php
         <div class="container">
@@ -60,9 +31,7 @@
                 <div class="col-md-10 col-lg-8 mx-auto">
                     <div class="site-heading">
 <<<<<<< HEAD:index.html
-                        <h1><!-- Love Always Wins --></h1><span class="subheading"></span></div>
-=======
-                        <h1>Love Always Wins</h1><span class="subheading">+++++++++++++++++</span></div>
+                        
 >>>>>>> 6ee37bf6bf9476bdaf35cbcb41130af5b50065bd:index.php
                 </div>
             </div>
