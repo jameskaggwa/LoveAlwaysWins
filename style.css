@@ -5,3 +5,118 @@
 	margin: 0;
 	padding: 0;
 }
+
+body{
+	background-image: url('assets/img/lijana.png');
+	background-size:cover;
+	background-repeat: no-repeat;
+	
+}
+
+.por-flex{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	flex-basis: 50%;
+	align-content: flex-end;
+	justify-content: flex-end;
+
+}
+
+a{
+	text-decoration: none;
+
+
+}
+
+.nt a::after{
+	content: "";
+	display: block;
+	width: 10%;
+	height: 2px;
+	background-color: lightcyan;
+	margin: 0 auto;
+	margin-top: 4px;
+	transition-duration: 0.3s;
+
+	opacity: 0;
+
+}
+
+.nt a:hover::after{
+	width: 100%;
+	opacity: 1;
+
+}
+
+./*nt{
+	position: relative;
+}
+
+.nt::after{
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 2px;
+	background: currentColor;
+
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 250ms ease-in;
+}
+
+.nt:hover::after{
+	transform: scaleX(1);
+	transform-origin: left;
+}
+*/
+
+
+.portfolio-item{ 
+	padding-bottom: 10px;
+}
+
+.portfolio-hover-content{
+	color: #435948;
+}
+
+h4{
+color: white;
+font-size: 15px;
+
+
+}
+
+/*rotattion*/
+
+.rota{
+	transition-duration: .3s;
+}
+.sym:hover .rota {
+transform: rotateY(180deg);
+}
+
+.icon-link a{
+	text-decoration: none;
+}
+
+.navbarResponsive{
+	color: lightgrey;
+}
+
+.lower {
+	opacity: 0;
+	transition-duration: 0.3s;
+	text-decoration: none;
+}
+
+.sym:hover .lower {
+	opacity: 1;
+
+}
+
+i{
+	text-decoration: none;
+}
