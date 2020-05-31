@@ -17,26 +17,18 @@
 <<<<<<< HEAD:index.html
 
 
-    <header class="masthead bg-transparent">
-        <div class=""></div>
+    
 =======
 
     <?php include("menu.html") ?>
 
-    <header class="masthead">
-        <div class="overlay"></div>
+    
 >>>>>>> 6ee37bf6bf9476bdaf35cbcb41130af5b50065bd:index.php
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-lg-8 mx-auto">
-                    <div class="site-heading">
+        
 <<<<<<< HEAD:index.html
                         
 >>>>>>> 6ee37bf6bf9476bdaf35cbcb41130af5b50065bd:index.php
-                </div>
-            </div>
-        </div>
-    </header>
+         
     <!-- Three column start -->
 
      <div class="row text-center xx por-flex">
