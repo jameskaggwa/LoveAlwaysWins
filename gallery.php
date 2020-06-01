@@ -16,7 +16,11 @@
 
     <?php include("menu.html") ?>
 <!-- header -->
+<div class="header">
+  <h1>My Gallery</h1>
+  <h6>Much Love</h6>         
 
+</div>
     <!-- header -->
 
     <!-- content section -->

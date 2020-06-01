@@ -1,27 +1,28 @@
 /* galleruy image  css*/
 *{
   box-sizing: border-box;
+
 }
 
 body{
-	font-size: 15pt;
-	margin: 0;
-	font-family: 'courier New', courier,monospace;
+
 }
 .header{
 	text-align: center;
-	padding: 25px;
+	padding-top: 80px;
+  font-size: 15pt;
+	margin: 0;
+	font-family: 'courier New', courier,monospace;
 }
 
 .row{
-  padding: 25px;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 }
 
 .column{
-	flex:100%;
+	flex:50%;
 }
 
 .column img{
