@@ -40,9 +40,9 @@
 
 <!-- bottom buttons start -->
 <div class="container-button">
-  <button class="btn btn1">Donate Now</button>
-  <button class="btn btn2">Join Us Now</button>
-  <button class="btn btn3">Get Involved</button>
+  <a class="navbar-brand" href="donate.php"><button class="btn btn1">Donate Now</button></a>
+  <a class="navbar-brand" href="joinus.php"><button class="btn btn2">Join Us Now</button></a>
+  <a class="navbar-brand" href="getinvolved.php"><button class="btn btn3">Get Involved</button></a>
 </div>
 <!-- bottom button Ends -->
 
