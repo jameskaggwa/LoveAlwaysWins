@@ -12,9 +12,10 @@
 </head>
 
 <body>
-  
+
     <?php include("menu.html") ?>
 
+<!-- header -->
     <header class="masthead" style="background-image:url('assets/img/school-bg.jpg');">
         <div class="overlay"></div>
         <div class="container">
@@ -27,7 +28,14 @@
                 </div>
           </div>
     </header>
+    <!-- header -->
 
+    <!-- content section -->
+
+    
+    <!-- content section -->
+
+<!-- footer -->
     <footer>
         <div class="container">
             <div class="row">
@@ -42,6 +50,9 @@
             </div>
         </div>
     </footer>
+    <!-- footer -->
+
+    <!-- js links -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/script.min.js"></script>

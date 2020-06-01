@@ -10,57 +10,45 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
-<<<<<<< HEAD:index.html
 
+<!-- Php include tag -->
+<?php include("menu.html") ?>
 
-    
-=======
+<!-- dont touch this Dad i will fix it later -->
+    <header class="masthead bg-transparent">
+        <div class=""></div>
 
-    <?php include("menu.html") ?>
+    <header class="masthead bg-transparent">
+        <div class="overlay bg-transparent"></div>
 
-    
->>>>>>> 6ee37bf6bf9476bdaf35cbcb41130af5b50065bd:index.php
-        
-<<<<<<< HEAD:index.html
-                        
->>>>>>> 6ee37bf6bf9476bdaf35cbcb41130af5b50065bd:index.php
-         
-    <!-- Three column start -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto">
+                    <div class="site-heading">
 
-     <div class="row text-center xx por-flex">
-                <div class="col-sm-4  portfolio-item">
-                    <a href="#" class="icon-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content sym"><i class="fa fa-dollar fa-2x rota"></i> <h4 class="text-success lower">Donate Now</h4></div>
-                            
-                        
-                        
-                    </div>
                 </div>
-                <div class="col-sm-4  portfolio-item">
-                    <a href="#" class="icon-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content sym"><i class="fa fa-handshake-o fa-2x rota"></i><h4 class="text-info lower">Join Us Now</h4></div>
+            </div>
+        </div>
+    </header>
+    <!-- dont touch this Dad i will fix it later -->
 
-                        
-                        
-                    </div>
-                </div>
-                <div class="col-sm-4  portfolio-item">
-                    <a href="#" class="icon-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content sym"><i class="fa fa-chevron-circle-up fa-2x rota"></i><h4 class="text-gray-dark lower">Get Involved</h4></div>
-                        
-                       
-                    </div>
-                </div>
-    
-                <!-- three column Ends -->
-         
+
+<!-- bottom buttons start -->
+<div class="container-button">
+  <button class="btn btn1">Donate Now</button>
+  <button class="btn btn2">Join Us Now</button>
+  <button class="btn btn3">Get Involved</button>
+</div>
+<!-- bottom button Ends -->
+
+
+                <!-- Js links -->
+    <script src="assets/js/custom.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/script.min.js"></script>

@@ -13,38 +13,27 @@
 
 <body>
 
-  <!--
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
-        <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/LAW.png"></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
-            <div
-                class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="nav navbar-nav ml-auto">
-                  <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link" href="about.html">About</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link" href="causes.html">Causes</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link" href="events.html">Events</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link" href="blog.html">Blog</a></li>
-                </ul>
-        </div>
-        </div>
-    </nav>
-  -->
     <?php include("menu.html") ?>
-
+<!-- header -->
     <header class="masthead" style="background-image:url('assets/img/about-bg.jpg');">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto">
                     <div class="site-heading">
-                        <h1>About Me</h1><span class="subheading">This is what I do</span>
+                        <h1>Follow My blog</h1><span class="subheading">This is what I do</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
+    <!-- header -->
 
+    <!-- content section -->
+
+    <!-- content section -->
+
+<!-- footer -->
     <footer>
         <div class="container">
             <div class="row">
@@ -59,6 +48,9 @@
             </div>
         </div>
     </footer>
+    <!-- footer -->
+
+    <!-- js links -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/script.min.js"></script>

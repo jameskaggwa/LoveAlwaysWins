@@ -12,32 +12,9 @@
 </head>
 
 <body>
-  <!--
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
-        <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/ logo.png"></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
-            <div
-                class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="nav navbar-nav ml-auto">
-<<<<<<< HEAD:projects.html
-                    <li class="nav-item nt" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item nt" role="presentation"><a class="nav-link" href="about.html">About us</a></li>
-                    <li class="nav-item nt" role="presentation"><a class="nav-link" href="contact.html">Contact us</a></li>
-                    <li class="nav-item nt" role="presentation"><a class="nav-link" href="projects.html">Projects</a></li>
-=======
-                  <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link" href="about.html">About</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link" href="causes.html">Causes</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link" href="events.html">Events</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link" href="blog.html">Blog</a></li>
->>>>>>> 6ee37bf6bf9476bdaf35cbcb41130af5b50065bd:about.php
-                </ul>
-        </div>
-        </div>
-    </nav>
-  -->
-    <?php include("menu.html") ?>
 
+    <?php include("menu.html") ?>
+<!-- about header -->
     <header class="masthead" style="background-image:url('assets/img/about-bg.jpg');">
         <div class="overlay"></div>
         <div class="container">
@@ -49,7 +26,16 @@
             </div>
         </div>
     </header>
+    <!-- about header  -->
 
+
+<!-- content section -->
+<section>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</section>
+<!-- content section -->
+
+<!-- footer -->
     <footer>
         <div class="container">
             <div class="row">
@@ -64,6 +50,9 @@
             </div>
         </div>
     </footer>
+    <!-- footer -->
+
+    <!-- js links -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/script.min.js"></script>
