@@ -1,0 +1,43 @@
+/* galleruy image  css*/
+*{
+  box-sizing: border-box;
+}
+
+body{
+	font-size: 15pt;
+	margin: 0;
+	font-family: 'courier New', courier,monospace;
+}
+.header{
+	text-align: center;
+	padding: 25px;
+}
+
+.row{
+  padding: 25px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.column{
+	flex:100%;
+}
+
+.column img{
+	padding: 4px;
+	width: 50%;
+	vertical-align: middle;
+}
+
+@media(max-width: 800px){
+	.column{
+		flex:50%;
+	}
+}
+
+@media(max-width: 609px){
+	.column{
+		flex:100%;
+	}
+}

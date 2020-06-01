@@ -9,26 +9,31 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="style-gallery.css">
 </head>
 
 <body>
 
     <?php include("menu.html") ?>
 <!-- header -->
-    <header class="masthead" style="background-image:url('assets/img/about-bg.jpg');">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-lg-8 mx-auto">
-                    <div class="site-heading">
-                        <h1>Image From My Journey</h1><span class="subheading">This is what I do</span></div>
-                </div>
-            </div>
-        </div>
-    </header>
+
     <!-- header -->
 
     <!-- content section -->
+
+      <div class="row">
+        <div class="column">
+        <img src="assets/img/gallery/l1.jpg" alt="">
+        <img src="assets/img/gallery/l2.jpg" alt="">
+        <img src="assets/img/gallery/l3.jpg" alt="">
+        <img src="assets/img/gallery/l4.jpg" alt="">
+        <img src="assets/img/gallery/l5.jpg" alt="">
+        <img src="assets/img/gallery/l6.jpg" alt="">
+        <img src="assets/img/gallery/l7.jpg" alt="">
+        <img src="assets/img/gallery/l8.jpg" alt="">
+        </div>
+      </div>
+
 
     <!-- content section -->
 
