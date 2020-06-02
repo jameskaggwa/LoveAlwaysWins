@@ -18,7 +18,7 @@
 <!-- header -->
 <div class="header">
   <h1>My Gallery</h1>
-  <h6>Much Love</h6>         
+  <h6>Much Love</h6>
 
 </div>
     <!-- header -->
@@ -41,22 +41,8 @@
 
     <!-- content section -->
 
-<!-- footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-lg-8 mx-auto">
-                    <ul class="list-inline text-center">
-                        <li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></li>
-                        <li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></li>
-                        <li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></li>
-                    </ul>
-                    <p class="text-muted copyright">Copyright&nbsp;©&nbsp;LoveAlwaysWins.de</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- footer -->
+    <!-- Php include tag -->
+    <?php include("footer.html") ?>
 
     <!-- js links -->
     <script src="assets/js/jquery.min.js"></script>

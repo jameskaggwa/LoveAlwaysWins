@@ -32,10 +32,10 @@
 
     <!-- content section -->
 
-    
+
     <!-- content section -->
 
-<!-- footer -->
+<!-- footer
     <footer>
         <div class="container">
             <div class="row">
@@ -50,7 +50,9 @@
             </div>
         </div>
     </footer>
-    <!-- footer -->
+     -->
+     <!-- Php include tag -->
+     <?php include("footer.html") ?>
 
     <!-- js links -->
     <script src="assets/js/jquery.min.js"></script>
