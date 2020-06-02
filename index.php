@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="assets/css/custom/footer.css">
 </head>
 
 <body>
@@ -42,7 +42,7 @@
 <div class="container-button">
   <a class="navbar-brand" href="donate.php"><button class="btn btn1">Donate Now</button></a>
   <a class="navbar-brand" href="joinus.php"><button class="btn btn2">Join Us Now</button></a>
-  <a class="navbar-brand" href="getinvolved.php"><button class="btn btn3">Get Involved</button></a>
+  <a class="navbar-brand" href="getinvolved.php"><button class="btn btn1">Get Involved</button></a>
 </div>
 <!-- bottom button Ends -->
 

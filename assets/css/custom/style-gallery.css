@@ -1,3 +1,32 @@
+/* css style for gallery */
+.header{
+	text-align: center;
+	padding-top: 80px;
+  font-size: 15pt;
+	margin: 0;
+	font-family: 'courier New', courier,monospace;
+}
+
+.img-area{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex: 50%;
+}
+
+.single-img{
+  padding: 0 20px 20px;
+}
+
+img:hover{
+  opacity: 0.5;
+  transition: 0.9s;
+}
+
+
+
 /* galleruy image  css*/
 /* *{
   box-sizing: border-box;
