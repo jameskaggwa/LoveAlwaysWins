@@ -163,3 +163,5 @@ transform: rotateY(180deg);
 .btn3:hover::before,.btn4:hover::before{
   height: 0%;
 }
+
+/* footer css */
