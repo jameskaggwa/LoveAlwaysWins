@@ -9,38 +9,65 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="assets/css/custom/style-gallery.css"> -->
+    <!-- links for gallery -->
+    <link rel="stylesheet" type="text/css" href="assets/css/custom/style-gallery.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="assets/css/lightbox.min.css">
     <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 
 <body>
 
     <?php include("menu.html") ?>
-<!-- header -->
-<div class="header">
-  <h1>My Gallery</h1>
-  <h6>Much Love</h6>
-
-</div>
-    <!-- header -->
-
-    <!-- content section(Image Gallery) -->
-
-      <!-- <div class="Wrapper">
-        <div class="img-area">
-        <div class="single-img"><img src="assets/img/gallery/l1.jpg" alt=""></div>
-        <div class="single-img"><img src="assets/img/gallery/l2.jpg" alt=""></div>
-        <div class="single-img"><img src="assets/img/gallery/l3.jpg" alt=""></div>
-        <div class="single-img"><img src="assets/img/gallery/l4.jpg" alt=""></div>
-        <div class="single-img"><img src="assets/img/gallery/l5.jpg" alt=""></div>
-        <div class="single-img"><img src="assets/img/gallery/l6.jpg" alt=""></div>
-        <div class="single-img"><img src="assets/img/gallery/l7.jpg" alt=""></div>
-        <div class="single-img"><img src="assets/img/gallery/l8.jpg" alt=""></div>
-        </div>
-      </div> -->
 
 
-    <!-- content section -->
+    <header class="gallery-header">
+      <h1>My Gallery</h1>
+    </header>
+
+<!-- Gallery starts here -->
+<div id="wrapper">
+    <!---Gallery Row 1 Start -->
+    <section class="one-third">
+      <a class="example-image-link" id="lightbox-img" href="assets/img/gallery/l1.jpg" data-lightbox="example-set" data-title="LoveAlwaysWins-Lijana"><img class="example-image" src="assets/img/gallery/l1.jpg" alt="" title="Love always wins"></a>
+    </section>
+    <section class="one-third">
+      <a class="example-image-link" id="lightbox-img" href="assets/img/gallery/l7.jpg" data-lightbox="example-set" data-title="LoveAlwaysWins-Lijana"><img class="example-image" src="assets/img/gallery/l7.jpg" alt="#" title="#"></a>
+    </section>
+    <section class="one-third">
+      <a class="example-image-link" id="lightbox-img" href="assets/img/gallery/l8.jpg" data-lightbox="example-set" data-title="LoveAlwaysWins-Lijana"><img class="example-image" src="assets/img/gallery/l8.jpg" alt="#" title="#"/></a>
+    </section>
+    <!---Gallery Row 1 End -->
+
+    <!---Gallery Row 2 Start -->
+    <section class="one-third">
+      <a class="example-image-link" id="lightbox-img" href="assets/img/gallery/l2.jpg" data-lightbox="example-set" data-title="LoveAlwaysWins-Lijana"><img class="example-image" src="assets/img/gallery/l2.jpg" alt="#" title="#"/></a>
+    </section>
+    <section class="one-third">
+      <a class="example-image-link" id="lightbox-img" href="assets/img/gallery/l5.jpg" data-lightbox="example-set" data-title="LoveAlwaysWins-Lijana"><img class="example-image" src="assets/img/gallery/l5.jpg" alt="#" title="#"/></a>
+    </section>
+    <section class="one-third">
+      <a class="example-image-link" id="lightbox-img" href="assets/img/gallery/l3.jpg" data-lightbox="example-set" data-title="LoveAlwaysWins-Lijana"><img class="example-image" src="assets/img/gallery/l3.jpg" alt="#" title="#"/></a>
+    </section>
+    <!---Gallery Row 2 End -->
+
+    <!---Gallery Row 3 Start -->
+    <section class="one-third">
+      <a class="example-image-link" id="lightbox-img" href="assets/img/gallery/l7.jpg" data-lightbox="example-set" data-title="LoveAlwaysWins-Lijana"><img class="example-image" src="assets/img/gallery/l7.jpg" alt="" title="Lijana"></a>
+    </section>
+    <section class="one-third">
+      <a class="example-image-link" id="lightbox-img" href="assets/img/gallery/l6.jpg" data-lightbox="example-set" data-title="LoveAlwaysWins-Lijana"><img class="example-image" src="assets/img/gallery/l6.jpg" alt="#" title="#"></a>
+    </section>
+    <section class="one-third">
+      <a class="example-image-link" id="lightbox-img" href="iassets/img/gallery/l9.jpg" data-lightbox="example-set" data-title="LoveAlwaysWins-Lijana"><img class="example-image" src="assets/img/gallery/l9.jpg" alt="#" title="#"/></a>
+    </section>
+    <!---Gallery Row 3 End -->
+
+  </div>
+
+
 
 <!-- footer -->
     <footer>
@@ -60,6 +87,7 @@
     <!-- footer -->
 
     <!-- js links -->
+    <script src="assets/js/lightbox-plus-jquery.min.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/script.min.js"></script>

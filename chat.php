@@ -16,14 +16,14 @@
     <?php include("menu.html") ?>
 
 <!-- header -->
-    <header class="masthead" style="background-image:url('assets/img/school-bg.jpg');">
+    <header class="masthead" style="background-image:url('assets/img/chat.jpg');">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto">
                   <div class="post-heading">
                     <h1>Let us chat</h1>
-                    <h2 class="subheading">Chat with us</h2>
+                    <h2 class="subheading">Coming Soon</h2>
                   </div>
                 </div>
           </div>

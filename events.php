@@ -15,13 +15,13 @@
 
     <?php include("menu.html") ?>
 <!-- header -->
-    <header class="masthead" style="background-image:url('assets/img/contact-bg.jpg');">
+    <header class="masthead" style="background-image:url('assets/img/events.jpg');">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto">
                     <div class="site-heading">
-                        <h1>The Next Events</h1><span class="subheading">############</span></div>
+                        <h1>The Next Events</h1><span class="subheading">Coming Soon</span></div>
                 </div>
             </div>
         </div>
